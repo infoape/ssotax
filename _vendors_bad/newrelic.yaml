@@ -1,11 +1,11 @@
 ---
-base_pricing: 0.60
+base_pricing: varies
 currency: USD
-name: New Relic Infrastructure
-notes: Pricing varies by host size (this is minimum). The SSO cost increase does not.
-pricing_scheme: per host/month
+name: New Relic 
+notes: Pricing is based primarily on usage with tiers for higher numbers of ingest and users.
+pricing_scheme: GB ingested, user type
 pricing_sources:
-  - https://newrelic.com/products/infrastructure/pricing
-sso_pricing: 1.20
-updated_at: 2018-10-18
-vendor_url: https://newrelic.com/products/infrastructure
+  - https://newrelic.com/pricing
+sso_pricing: included with all paid plans
+updated_at: 2024-11-21
+vendor_url: https://newrelic.com
